@@ -11,20 +11,18 @@ sidebar:
 ---
 
 # Elasticsearch 기본개념 목차
-<ul>
-    <li>Elasticsearch란?</li>
-    <li>Elasticsearch 특징</li>
-    <li>Elasticsearch 기본 용어</li>
-    <li>Elasticsearch의 장단점</li>
-</ul>
+- Elasticsearch란?
+- Elasticsearch 특징
+- Elasticsearch 기본 용어
+- Elasticsearch의 장단점
 
 ## Elasticsearch란?
 검색엔진의 시초인 루씬 (Lucene)을 기반으로 하고 있으며, 비정형 데이터를 색인하고 검색하는 것이 가능하며, 장점 중 하나인 역색인 구조를 사용하므로써 빠른 검색이 가능하다. 또한 분산 및 병렬처리, Restful API 제공 등 다양한 기능을 제공한다.
-<ul>
-  <li>비정형 데이터 : 정해진 규칙이 없는 데이터</li>
-  <li>색인 : 문서에서 키워드를 찾아 보기 쉽도록  정렬 및 나열</li>
-  <li>역색인 : 키워드를 통해  문서를 찾는 방식</li>
-</ul>
+
+- 비정형 데이터 : 정해진 규칙이 없는 데이터
+- 색인 : 문서에서 키워드를 찾아 보기 쉽도록  정렬 및 나열
+- 역색인 : 키워드를 통해  문서를 찾는 방식
+
 
 ## Elasticsearch 특징
 ElasticSearch는 기본적으로 HTTP 통신을 통해 JSON 형식의 문서 단위로 저장하며, 문서는 인덱스 라는 논리적인 데이터베이스에 저장된다. 이렇게 저장된 데이터는 분산처리를 통해 실시간성으로 빠른 검색이 가능하다. 또한 검색엔진이지만 MongoDB 와 같은 대용량 스토리지로도 활용이 가능하다.
